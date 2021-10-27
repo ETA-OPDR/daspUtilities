@@ -11,6 +11,9 @@ License: What license is it under?
 Encoding: UTF-8
 LazyData: true
 Imports: 
-    dplyr
+    dplyr,
+    magrittr,
+    rlang
 Depends: 
     R (>= 2.10)
+RoxygenNote: 7.1.1
