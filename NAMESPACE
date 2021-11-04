@@ -2,5 +2,6 @@
 
 export("%>%")
 export(onet_crosswalk)
+export(pirl_name_replace)
 export(soc_crosswalk)
 importFrom(magrittr,"%>%")

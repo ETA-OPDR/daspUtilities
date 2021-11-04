@@ -1,4 +1,7 @@
+#' Replace PIRL element DF column names with friendly Names
 #'
+#' @description \code{pirl_name_replace} takes a df with column names that are listed
+#' as pirl elements and replaces them with friendly names
 #' @export
 pirl_name_replace <- function(df) {
   pirl_names <- str_replace(names(df), 'PIRL', 'p')
